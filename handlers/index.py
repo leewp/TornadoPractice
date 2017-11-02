@@ -27,5 +27,5 @@ class SeeHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         self.render("see.html", user="see")
 
-class Test:
+class Test_2:
     pass
