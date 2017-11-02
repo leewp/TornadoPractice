@@ -26,3 +26,6 @@ class SleepHandler(tornado.web.RequestHandler):
 class SeeHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         self.render("see.html", user="see")
+
+class Test:
+    pass
